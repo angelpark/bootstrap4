@@ -14,7 +14,6 @@
     ]
   ],
   "_from": "bootstrap@4.0.0-beta",
-  "_id": "bootstrap@4.0.0-beta",
   "_inCache": true,
   "_location": "/bootstrap",
   "_nodeVersion": "8.1.4",
@@ -45,17 +44,12 @@
   "_shrinkwrap": null,
   "_spec": "bootstrap@4.0.0-beta",
   "_where": "C:\\project",
-  "author": {
-    "name": "The Bootstrap Authors",
-    "url": "https://github.com/twbs/bootstrap/graphs/contributors"
-  },
+  "author": "The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)",
   "bugs": {
     "url": "https://github.com/twbs/bootstrap/issues"
   },
   "contributors": [
-    {
-      "name": "Twitter, Inc."
-    }
+    "Twitter, Inc."
   ],
   "dependencies": {},
   "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
@@ -69,6 +63,11 @@
     "eslint": "^4.2.0",
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-qunit": "^2.0.0",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-contrib-watch": "^1.0.0",
     "grunt-saucelabs": "^9.0.0",
     "htmllint-cli": "^0.0.6",
     "node-sass": "^4.5.3",
@@ -103,7 +102,6 @@
     "scss/**/*.scss",
     "LICENSE"
   ],
-  "gitHead": "a0521efbb59aefeb447a0ef6927aadf1999fee07",
   "homepage": "https://getbootstrap.com",
   "jspm": {
     "main": "js/bootstrap",
@@ -134,10 +132,7 @@
   "license": "MIT",
   "main": "dist/js/bootstrap",
   "maintainers": [
-    {
-      "name": "twbs",
-      "email": "bigj95t+bsnpm@gmail.com"
-    }
+    "twbs <bigj95t+bsnpm@gmail.com>"
   ],
   "name": "bootstrap",
   "optionalDependencies": {},
@@ -145,7 +140,6 @@
     "jquery": ">=3.0.0",
     "popper.js": "^1.11.0"
   },
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/twbs/bootstrap.git"
